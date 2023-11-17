@@ -8,4 +8,4 @@ Below is the documentation on how to use these scripts.
 
 | Command | Explanation | Permission |
 |---------|-------------|------------|
-| /nerdarena create <name> | Creates a new arena, based on the worldedit selection, named whatever is specified | nerdarena.create |
+| /nerdarena create <\name> | Creates a new arena, based on the worldedit selection, named whatever is specified | nerdarena.create |
