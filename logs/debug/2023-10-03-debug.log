@@ -1,0 +1,115 @@
+2023-10-03 00:53.46 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 00:53.49 - [CommandHelper][ERROR][runtime] ms.lang.IndexOverflowException: Unknown or uneditable specification: item
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:21.115
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:21.66
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:21.115
+2023-10-03 09:10.46 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:11.02 - [CommandHelper][ALWAYS][general] An update is available!
+2023-10-03 09:27.35 - [CommandHelper][ERROR][runtime] ms.lang.IndexOverflowException: Unknown or uneditable specification: item
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:21.115
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:21.66
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:21.115
+2023-10-03 09:27.45 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:28.59 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:29.29 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:30.50 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:31.43 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:32.00 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:33.35 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:33.35 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Incorrect number of arguments passed to for
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:22.2
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:22.2
+2023-10-03 09:34.01 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:44.04 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:44.23 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:44.29 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Expecting a number, but received "/summon block_display -70.01" instead
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:24.42
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:24.42
+2023-10-03 09:50.07 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:51.53 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:52.56 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:52.59 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Void may not be assigned to a variable
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:23.15
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:23.15
+2023-10-03 09:54.17 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:54.35 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:55.55 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:57.10 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:57.52 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:58.20 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:58.28 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 09:59.57 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:00.03 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:00.11 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:00.16 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:00.26 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:00.33 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:02.40 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:02.51 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:03.04 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:03.11 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:03.18 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:03.26 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:03.31 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:09.10 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:09.16 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:09.27 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:09.33 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:09.41 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:09.53 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:10.08 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:10.43 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:10.56 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:11.10 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:11.23 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:14.20 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:14.28 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:14.44 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:14.44 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:15.01 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:15.25 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:15.37 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:15.44 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:16.06 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:16.18 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:16.19 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:16.27 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:16.37 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:21.06 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:23.12 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:24.12 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:24.58 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:28.01 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:28.31 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:28.55 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:29.09 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:29.18 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:29.28 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:29.37 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:31.06 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:31.14 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:31.26 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:31.38 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:31.54 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:32.13 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:32.23 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:40.11 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:40.12 - [CommandHelper][ERROR][runtime] ms.lang.InsufficientArgumentsException: At least 2 arguments must be provided to array_push
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:30.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:30.3
+2023-10-03 10:40.19 - [CommandHelper][ERROR][runtime] ms.lang.InsufficientArgumentsException: At least 2 arguments must be provided to array_push
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:30.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:30.3
+2023-10-03 10:41.13 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:41.29 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:41.40 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:41.56 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:42.33 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 10:42.34 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Expecting an integer, but received "0.5" instead
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:29.24
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:29.24
+2023-10-03 10:42.43 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 11:45.58 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 11:46.23 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 11:48.21 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-03 11:48.48 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26

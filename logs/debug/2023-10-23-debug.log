@@ -1,0 +1,101 @@
+2023-10-23 00:01.27 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:5.6
+2023-10-23 00:01.27 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-23 00:01.27 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-23 00:01.27 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-23 00:01.27 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+2023-10-23 00:02.06 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:5.6
+2023-10-23 00:02.06 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-23 00:02.06 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-23 00:02.06 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-23 00:02.06 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+2023-10-23 00:02.16 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:5.6
+2023-10-23 00:02.16 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-23 00:02.16 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-23 00:02.16 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-23 00:02.16 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+2023-10-23 01:01.57 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:5.6
+2023-10-23 01:01.57 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Expected braces to follow proc definition
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:19.6
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:19.6
+2023-10-23 01:01.57 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-23 01:01.57 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-23 01:01.57 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-23 01:02.13 - [CommandHelper][ALWAYS][general] An update is available!
+2023-10-23 01:02.22 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:5.6
+2023-10-23 01:02.22 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-23 01:02.22 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-23 01:02.22 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-23 01:02.22 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+2023-10-23 01:02.27 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_addPlayerQueue"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.9
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.9
+2023-10-23 01:02.51 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.6
+2023-10-23 01:02.51 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-23 01:02.51 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-23 01:02.51 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-23 01:02.51 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+2023-10-23 01:03.07 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.6
+2023-10-23 01:03.07 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-23 01:03.07 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-23 01:03.07 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-23 01:03.07 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+2023-10-23 01:04.29 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.6
+2023-10-23 01:04.29 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-23 01:04.29 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-23 01:04.29 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-23 01:04.29 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+2023-10-23 01:04.34 - [CommandHelper][ERROR][runtime] Using undefined variable: @players C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.16
+2023-10-23 01:04.35 - [CommandHelper][ERROR][runtime] Using undefined variable: @players C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.16
+2023-10-23 01:04.36 - [CommandHelper][ERROR][runtime] Using undefined variable: @players C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.16
+2023-10-23 01:06.08 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.6
+2023-10-23 01:06.08 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-23 01:06.08 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-23 01:06.08 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-23 01:06.08 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+2023-10-23 01:06.08 - [CommandHelper][ERROR][runtime] Using undefined variable: @players C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.16
+2023-10-23 01:06.13 - [CommandHelper][ERROR][runtime] Using undefined variable: @players C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.16
+2023-10-23 04:45.43 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.6
+2023-10-23 04:45.43 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-23 04:45.43 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-23 04:45.43 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-23 04:45.43 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+2023-10-23 04:45.59 - [CommandHelper][ALWAYS][general] An update is available!
+2023-10-23 04:47.23 - [CommandHelper][ERROR][runtime] Using undefined variable: @players C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.16

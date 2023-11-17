@@ -1,0 +1,17 @@
+2023-10-10 09:59.03 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-10 09:59.03 - [CommandHelper][ERROR][compiler] COMPILE ERROR: bind accepts 5 or more parameters
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:49.1
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:49.1
+2023-10-10 09:59.19 - [CommandHelper][ALWAYS][general] An update is available!
+2023-10-10 10:47.18 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-10 10:47.18 - [CommandHelper][ERROR][compiler] COMPILE ERROR: bind accepts 5 or more parameters
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:49.1
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:49.1
+2023-10-10 10:47.34 - [CommandHelper][ALWAYS][general] An update is available!
+2023-10-10 10:54.45 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-10 10:54.45 - [CommandHelper][ERROR][compiler] COMPILE ERROR: bind accepts 5 or more parameters
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:49.1
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:49.1
+2023-10-10 10:55.01 - [CommandHelper][ALWAYS][general] An update is available!
+2023-10-10 10:55.50 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-10 10:55.54 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26

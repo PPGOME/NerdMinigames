@@ -1,0 +1,16 @@
+2023-11-12 03:29.42 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:63.6
+2023-11-12 03:29.42 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-12 03:29.42 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-12 03:29.58 - [CommandHelper][ALWAYS][general] An update is available!
+2023-11-12 04:36.55 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:55.6
+2023-11-12 04:36.55 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-12 04:36.55 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-12 04:37.03 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:56.6
+2023-11-12 04:37.03 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-12 04:37.03 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3

@@ -1,0 +1,32 @@
+2023-10-22 03:12.18 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-22 03:12.18 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-22 03:12.18 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-22 03:12.18 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+2023-10-22 03:29.38 - [CommandHelper][ERROR][runtime] Using undefined variable: @spawns C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.37
+2023-10-22 03:29.38 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Argument 1 of array_get must be an array
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.45
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.45
+2023-10-22 03:29.42 - [CommandHelper][ERROR][runtime] Using undefined variable: @spawns C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.37
+2023-10-22 03:29.42 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Argument 1 of array_get must be an array
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.45
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.45
+2023-10-22 03:30.15 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Incorrect integer value: 'false' for column 'Randomized' at row 1
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:9.55
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:9.55
+2023-10-22 03:30.23 - [CommandHelper][ERROR][runtime] Using undefined variable: @spawns C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.37
+2023-10-22 03:30.23 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Argument 1 of array_get must be an array
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.45
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.45
+2023-10-22 10:53.53 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:5.6
+2023-10-22 10:53.53 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-22 10:53.53 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-22 10:53.53 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-10-22 10:53.53 - [CommandHelper][ERROR][runtime] ms.lang.InvalidProcedureException: Unknown procedure "_config_get"
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\warp.ms:11.5

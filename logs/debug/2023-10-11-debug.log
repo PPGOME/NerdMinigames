@@ -1,0 +1,97 @@
+2023-10-11 00:34.06 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:30.26
+2023-10-11 00:34.06 - [CommandHelper][ERROR][compiler] COMPILE ERROR: 14 parameter tokens were found in the query, but 8 parameters were provided to query().
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:17.8
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:17.8
+2023-10-11 00:36.12 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:30.26
+2023-10-11 00:36.12 - [CommandHelper][ERROR][compiler] COMPILE ERROR: 14 parameter tokens were found in the query, but 16 parameters were provided to query().
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:17.8
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:17.8
+2023-10-11 00:38.09 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:30.26
+2023-10-11 00:38.10 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''ArenaCreator', 'X1', 'Y1', 'Z1', 'X2', 'Y2', 'Z2', 'World')VALUES('PPGOME', 1, ' at line 1
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:17.8
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:17.8
+2023-10-11 00:39.15 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 00:39.17 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''ArenaCreator', 'X1', 'Y1', 'Z1', 'X2', 'Y2', 'Z2', 'World')VALUES('PPGOME', 1, ' at line 1
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:20.9
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:20.9
+2023-10-11 00:40.10 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 00:40.11 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''ArenaCreator', 'X1', 'Y1', 'Z1', 'X2', 'Y2', 'Z2', 'World') VALUES ('PPGOME', 1' at line 1
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:20.9
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:20.9
+2023-10-11 00:42.45 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 01:10.18 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 01:10.19 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Field 'Y1' doesn't have a default value
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:20.9
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:20.9
+2023-10-11 01:39.35 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 01:39.52 - [CommandHelper][ALWAYS][general] An update is available!
+2023-10-11 01:46.48 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 01:47.04 - [CommandHelper][ALWAYS][general] An update is available!
+2023-10-11 01:49.26 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 01:53.17 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 01:56.08 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 01:56.08 - [CommandHelper][ERROR][compiler] COMPILE ERROR: 7 parameter tokens were found in the query, but 8 parameters were provided to query().
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:22.9
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:22.9
+2023-10-11 01:56.24 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 01:56.24 - [CommandHelper][ERROR][compiler] COMPILE ERROR: 7 parameter tokens were found in the query, but 8 parameters were provided to query().
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:22.9
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:22.9
+2023-10-11 01:56.38 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 07:18.45 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\main.ms:27.26
+2023-10-11 07:19.01 - [CommandHelper][ALWAYS][general] An update is available!
+2023-10-11 08:35.51 - [CommandHelper][WARNING][compiler] This field will become case sensitive in the future, so should be capitalised to match the actual enum values. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\bungee\auto_include.ms:41.42
+2023-10-11 08:35.51 - [CommandHelper][WARNING][compiler] data_values is deprecated. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\inventory\auto_include.ms:16.55
+2023-10-11 08:35.51 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\pve-only\waypoints.ms:14.2
+2023-10-11 08:35.51 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\pve-only\waypoints.ms:13.3
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\bungee\BungeeCord.msa:42.4
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\bungee\MCBouncer.msa:27.3
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\bungee\MCBouncer.msa:48.3
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\bungee\MCBouncer.msa:78.3
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\home\home.msa:41.75
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: The command /i  1 is ambiguous because it matches the signature of /i  1 defined at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:51.10
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\inventory\give.msa:2.6
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\inventory\give.msa:2.6
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] The string item format in pgive_item is deprecated. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\books.msa:57.26
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: An error occured when running this script, due to misconfigured Java startup parameters. Please add the output of the 'cmdline-args' to your java startup command to enable full functionality. Please see the installation guide for more details.
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\books.msa:265.21
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\books.msa:265.21
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: The command /ping is ambiguous because it matches the signature of /ping defined at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:21.1
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\misc.msa:50.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\misc.msa:50.3
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\pl.msa:14.14
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\pl.msa:65.14
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\count-entities.msa:13.73
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\count-entities.msa:28.101
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: An error occured when running this script, due to misconfigured Java startup parameters. Please add the output of the 'cmdline-args' to your java startup command to enable full functionality. Please see the installation guide for more details.
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\count-entities.msa:28.57
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\count-entities.msa:28.57
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: The command /kit is ambiguous because it matches the signature of /kit diamond defined at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:37.1
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\kit\kit.msa:1.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\kit\kit.msa:1.3
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\lift.msa:12.3
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: The command /thor is ambiguous because it matches the signature of /thor defined at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:69.6
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\thor\thor.msa:2.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\thor\thor.msa:2.3
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: The command /time is ambiguous because it matches the signature of /time defined at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\aliases.msa:58.1
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\time.msa:1.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\time.msa:1.3
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\worldguard\members.msa:10.4
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\modding\worldguard\owners.msa:9.4
+2023-10-11 08:35.52 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\pve-only\disguise.msa:8.46
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: The command /runas is ambiguous because it matches the signature of /runas defined at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\debug.msa:1.1
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\pve-only\runas.msa:1.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\pve-only\runas.msa:1.3
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: The command /mbshrug is ambiguous because it matches the signature of /mbshrug defined at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\shrug\shrug.msa:7.3
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\shrug\shrug.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\shrug\shrug.msa:7.3
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: The command /abshrug is ambiguous because it matches the signature of /abshrug defined at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\shrug\shrug.msa:16.3
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\shrug\shrug.msa:16.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\shrug\shrug.msa:16.3
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: The command /shrug is ambiguous because it matches the signature of /shrug defined at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\shrug\shrug.msa:24.3
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\shrug\shrug.msa:24.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\shrug\shrug.msa:24.3
+2023-10-11 08:35.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: The command /cshrug is ambiguous because it matches the signature of /cshrug defined at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\misc\shrug\shrug.msa:32.3
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\shrug\shrug.msa:32.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\shrug\shrug.msa:32.3

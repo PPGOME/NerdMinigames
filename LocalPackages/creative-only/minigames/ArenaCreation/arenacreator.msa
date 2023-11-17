@@ -1,0 +1,101 @@
+# The arena creation command file. All commands pertaining to the creation and modification of in-game arenas can be found here.
+
+
+# TO DO LIST
+# Method for SELECT statement to check for individual entries in any table? Like checking if something exists before deleting.
+# Team creation
+# Team items
+# Team effects
+# Do I add round length as an option to the Arena table? How do I handle game time?
+
+
+/**
+ * Allows the user to create a new arena with the name specified
+ * @command
+ * @param $name The new arena's name
+ * @usage /nerdarena create <arena name>
+ */
+*:/nerdarena create $name = >>>
+    if(has_permission(player(), 'nerdarena.create')) {
+        @pos1 = sk_pos1(player())
+        @pos2 = sk_pos2(player())
+        if(@pos1 != null && @pos2 != null) {
+            @SQL = query('ZombieSQL', 'INSERT INTO `arena` (ArenaCreator, ArenaName, X1, Y1, Z1, X2, Y2, Z2, World)'
+			.' VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', puuid(player()), $name, @pos1[0], @pos1[1], @pos1[2],
+			@pos2[0], @pos2[1], @pos2[2], pworld(player()))
+            _mgMessage("Arena ".$name." created!")
+        } else {
+            _mgMessage("Your WorldEdit selection is empty!")
+        }
+    } else {
+        _mgMessage("You do not have the required permissions to create an arena.")
+    }
+<<<
+
+# Allows a user to delete their own arena. If an admin/mod (maybe?), can delete other player's arenas
+*:/nerdarena delete $id = >>>
+
+    if(has_permission(player(), 'nerdarena.delete')) {
+        @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $id)
+        try{
+            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
+                @SQL = query('ZombieSQL', 'DELETE FROM `arena` WHERE ArenaID = ?', $id)
+                _mgMessage("Arena deleted!")
+            } else {
+            _mgMessage("You don't own that arena.")
+            }
+        } catch(IndexOverflowException @e) {
+            _mgMessage("That arena doesn't exist!")
+        }
+    }
+
+# Check to see if arena is owned by player running the command. If admin/mod, can delete other player's arenas
+
+<<<
+
+
+/**
+ * Lists $player's created arenas with IDs
+ */
+*:/nerdarena list [$player=''] = >>>
+
+    @player = ''
+
+    if($player == '') {
+        try{
+            @player = player()
+            @arenas = query('ZombieSQL', 'SELECT * FROM `arena` WHERE ArenaCreator=?', puuid(@player))
+            if(@arenas != null) {
+                _mgMessage("You have ".array_size(@arenas)." arena(s).")
+                foreach(@arenas, @arena) {
+                    msg(color('AQUA')."ID: ".@arena['ArenaID'].color('GRAY')." | ".color('GOLD')."Name: ".@arena['ArenaName'])
+                    //msg(color('AQUA').@arena['ArenaID']." ".color('GOLD').@arena['ArenaName'])
+                }
+            }
+        } catch(PlayerOfflineException @e) {
+            _mgMessage("You have no arenas to show.")
+        }
+    } else {
+        if(has_permission(player(), 'nerdarena.list.others')) {
+            try {
+                @player = $player
+                @arenas = query('ZombieSQL', 'SELECT * FROM `arena` WHERE ArenaCreator=?', puuid(@player))
+                if(@arenas != null) {
+                    _mgMessage("You have ".array_size(@arenas)." arena(s).")
+                    foreach(@arenas, @arena) {
+                        msg(color('AQUA')."ID: ".@arena['ArenaID'].color('GRAY')." | ".color('GOLD')."Name: ".@arena['ArenaName'])
+                    }
+                } else {
+                    _mgMessage(@player." has no arenas to show.")
+                }
+            } catch(PlayerOfflineException @e) {
+                _mgMessage(@player." has no arenas to show.")
+            }
+        } else {
+            _mgMessage("You lack the permissions required to look up other players.")
+        }
+    }
+
+# Only accept optional parameter if user is admin/mod. Players should only be able to see their own arenas
+
+<<<

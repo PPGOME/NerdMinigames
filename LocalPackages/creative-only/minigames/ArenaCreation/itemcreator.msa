@@ -1,0 +1,61 @@
+*:/nerdarena additem $arenaid $team $randomized $chance= >>>
+    if(has_permission("nerdarena.item.add")) {
+        @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $arenaid)
+        @team = query('ZombieSQL', 'SELECT * FROM `arenateams` WHERE ArenaID = ? AND TeamName = ?', $arenaid, to_upper($team))
+        try{
+            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
+                if(array_size(@team) == 1) {
+                    @pstmt = query('ZombieSQL', 'INSERT INTO `arenaitems`(ArenaID, team, Item, Randomized, Chance) VALUES(?,?,?,?,?)',
+                    $arenaid, $team, json_encode(pinv(player(), null)), $randomized, $chance)
+                } else {
+                    _mgMessage("That team does not exist!")
+                }
+            }
+        } catch(IndexOverflowException @e) {
+            _mgMessage("This arena does not exist!")
+        }
+    }
+<<<
+
+*:/nerdarena listitems $arenaid = >>>
+    if(has_permission(player(), 'nerdarena.spawn.list')) {
+        @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $arenaid)
+        try{
+            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.list.other')) {
+                @items = query('ZombieSQL', 'SELECT * FROM `arenaitems` WHERE ArenaID = ?', $arenaid)
+                _mgMessage('Arena '.@spawns[0]['ArenaName'].' has '.array_size(@spawns).' spawns.')
+                foreach(@items, @item) {
+                    msg(color('AQUA').'ID: '.@items['ItemID'].' '.color('BLUE').' Name: '.json_decode(@items['Item']))
+                }
+            }
+        } catch(IndexOverflowException @e) {
+            _mgMessage("This arena does not exist!")
+        }
+    }
+<<<
+
+// foreach(@spawns, @spawn) {
+//                 msg(color('AQUA').'ID: '.@spawn['spawnid'].' '.color('BLUE').' X: '.@spawn['X'].' '.color('GREEN').' Y: '.@spawn['Y'].' '.color('RED').' Z: '.@spawn['Z'].' '
+//                 .color('YELLOW').' Team: '.@spawn['team'])
+//                 // runas('~console', '/tellraw '.player().' {"text":"ID: X: '.@spawn['X']' Y: '.@spawn['Y']' Z: '.@spawn['Z']' Team: '.@spawn['team']'","clickEvent"'
+//                 // .':{"action":"run_command","value":"tp '.player().' '.@spawn['X'].' '.@spawn['Y'].' '.@spawn['Z'].' '.@spawn['world'].' '.@spawn['pitch'].' '.@spawn['yaw']'"}}')
+//             }
+
+/nerdarena delitem $itemid = >>>
+    @verify = query('ZombieSQL', 'SELECT * FROM `arenaitems` JOIN `arena` ON `arenaitems`.`ArenaID`=`arena`.`ArenaID` WHERE `arenaitems`.`ItemID` = ?', $itemid)
+    try{
+        if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
+            @SQL = query('ZombieSQL', 'DELETE FROM `arenaitems` WHERE ItemID = ?', $itemid)
+            _mgMessage("Item deleted!")
+        } else {
+            _mgMessage("This item is not in an arena you own.")
+        }
+    } catch(IndexOverflowException @e) {
+        _mgMessage("This item does not exist.")
+    }
+<<<
+
+*:/nerdarena whatisthisitem = >>>
+    msg(pinv(player(), null))
+    pgive_item(pinv(player(), null))
+<<<

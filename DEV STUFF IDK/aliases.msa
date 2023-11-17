@@ -1,0 +1,66 @@
+#=========================================================================#
+#
+# CommandHelper sample alias file
+#
+#=========================================================================#
+
+# Lines that start with # or // are comments
+# Lines surrounded by /* */ are block comments
+
+
+/start $test = >>>
+	@aa = 'this'
+	_teleportPlayer(puuid(player()));
+	run('/tellraw '.player().' {"text":"The battle is about to begin... '.@aa.'","bold":true,"underlined":true,"color":"red"}')
+	@aa = $test
+	run('/tellraw '.player().' {"text":"The battle is about to begin... '.@aa.'","bold":true,"underlined":true,"color":"red"}')
+<<<
+
+/sqltest = >>>
+	@pos1 = sk_pos1(player())
+	@pos2 = sk_pos2(player())
+	@SQL = query('ZombieSQL', 'INSERT INTO `arena` (ArenaCreator, X1, Y1, Z1, X2, Y2, Z2, World)'
+			.' VALUES (?, ?, ?, ?, ?, ?, ?, ?)', player(), @pos1[0], @pos1[1], @pos1[2],
+			@pos2[0], @pos2[1], @pos2[2], pworld(player()))
+<<<
+
+/wetest = >>>
+	@pos1 = sk_pos1(player())
+	@pos2 = sk_pos2(player())
+	msg(@pos1[0].', '.@pos1[1].', '.@pos1[2].' + '.@pos2)
+<<<
+
+/loadcards = >>>
+	@startloc = array(-70.01, 90.01, 37.01, 'world')
+	@startlochead = array(-68.93, 88.92, 36.98)
+	@startlocstand = array(-69.6, 89.2, 37.48)
+	@headtextures = array('bardidley', 'marting11', 'andyjf', 'creeper', 'skeleton', 'zombie')
+	@occurance = array()
+	for(@i=1, @i < 6, @i++) {
+		array_push(@occurance, @headtextures[rand(0, 6)])
+	}
+	array_sort(@occurance, 'STRING');
+	for(@i=0, @i < 5, @i++) {
+		run('/summon item_display '.@startloc[0].' '.@startloc[1].' '.@startloc[2].' {Passengers:[{id:"minecraft:item_display",Tags:["group'.@i.'"],item:{id:"minecraft:paper",Count:1},item_display:"none",transformation:[0.7071f,-0.7071f,0.0000f,0.5000f,-0.0000f,-0.0000f,-1.0000f,0.5000f,0.7071f,0.7071f,-0.0000f,0.5000f,0.0000f,0.0000f,0.0000f,1.0000f]}]}')
+		run('/summon item_display '.@startlochead[0].' '.@startlochead[1].' '.@startlochead[2].' {Passengers:[{id:"minecraft:item_display",Tags:["group'.@i.'"],item:{id:"minecraft:player_head",Count:1,tag:{SkullOwner:"'.@occurance[@i].'"}},item_display:"none",transformation:[-0.0000f,0.5000f,0.0000f,-0.5000f,0.0000f,0.0000f,-0.5000f,1.5000f,-0.5000f,-0.0000f,-0.0000f,0.5000f,0.0000f,0.0000f,0.0000f,1.0000f]}]}')
+		run('/summon armor_stand '.@startlocstand[0].' '.@startlocstand[1].' '.@startlocstand[2].' {Invisible:1b,Invulnerable:1b,NoGravity:1b,Rotation:[90f],Tags:["group'.@i.'"]}')
+		@entitygroup = array(entities_in_radius(@startloc, 1))
+		@startloc[2] = @startloc[2] + 1
+		@startlochead[2] = @startlochead[2] + 1
+		@startlocstand[2] = @startlocstand [2] + 1
+	}
+<<<
+
+/checkentities = >>>
+	@loc = ploc()
+
+	foreach(@entity in entities_in_radius(@loc, 2)) {
+		console(@entity)
+		console(entity_type(@entity))
+		foreach(@tag in get_scoreboard_tags(@entity)) {
+			if(@tag == @group) {
+				msg(entity_type(@entity))
+			}
+		}
+	}
+<<<
