@@ -9,3 +9,806 @@
 2023-11-16 07:43.10 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
 	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
  C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:05.35 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:98.6
+2023-11-16 08:05.35 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:05.35 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:05.49 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Void may not be assigned to a variable
+	at proc _startRound:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.19
+	at proc _addPlayerQueue:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:89.42
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:101.46
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.19
+2023-11-16 08:06.46 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:98.6
+2023-11-16 08:06.46 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:06.46 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:06.50 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Void may not be assigned to a variable
+	at proc _startRound:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.19
+	at proc _addPlayerQueue:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:89.42
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:101.46
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.19
+2023-11-16 08:11.53 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:106.6
+2023-11-16 08:11.53 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:11.53 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:12.04 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:106.6
+2023-11-16 08:12.04 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:12.04 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:15.16 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:107.6
+2023-11-16 08:15.16 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:15.16 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:15.20 - [CommandHelper][ERROR][runtime] ms.lang.IndexOverflowException: The element at index "Team" does not exist
+	at proc _giveItems:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:12.32
+	at proc _startRound:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:64.54
+	at proc _addPlayerQueue:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:98.42
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:110.46
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:12.32
+2023-11-16 08:16.23 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:108.6
+2023-11-16 08:16.23 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:16.23 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:16.28 - [CommandHelper][ERROR][runtime] ms.lang.IndexOverflowException: The element at index "Team" does not exist
+	at proc _giveItems:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.32
+	at proc _startRound:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:65.54
+	at proc _addPlayerQueue:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:99.42
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:111.46
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.32
+2023-11-16 08:16.52 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:107.6
+2023-11-16 08:16.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:16.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:23.43 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:110.6
+2023-11-16 08:23.43 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:23.43 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:24.42 - [CommandHelper][ERROR][runtime] Using undefined variable: @spawns C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.37
+2023-11-16 08:24.42 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Argument 1 of array_get must be an array
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.45
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:26.45
+2023-11-16 08:25.37 - [CommandHelper][ERROR][runtime] ms.lang.IndexOverflowException: The element at index "chance" does not exist
+	at proc _giveItems:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:14.49
+	at proc _startRound:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:67.54
+	at proc _addPlayerQueue:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:101.42
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:113.46
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:14.49
+2023-11-16 08:25.54 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:110.6
+2023-11-16 08:25.54 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:25.54 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:26.01 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:110.6
+2023-11-16 08:26.01 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:26.01 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:26.16 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:111.6
+2023-11-16 08:26.16 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:26.16 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:26.24 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:111.6
+2023-11-16 08:26.24 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:26.24 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:27.03 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:111.6
+2023-11-16 08:27.03 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:27.03 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:42.57 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:111.6
+2023-11-16 08:42.57 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:42.57 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 08:43.34 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Unknown column 'Randomized' in 'field list'
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:9.55
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\itemcreator.msa:9.55
+2023-11-16 08:44.03 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:111.6
+2023-11-16 08:44.03 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 08:44.03 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:04.39 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:122.6
+2023-11-16 09:04.39 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:04.39 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:06.32 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:119.6
+2023-11-16 09:06.32 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:06.32 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:08.14 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:119.6
+2023-11-16 09:08.14 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:08.14 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:08.41 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:120.6
+2023-11-16 09:08.42 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:08.42 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:10.34 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:122.6
+2023-11-16 09:10.34 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:10.34 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:11.15 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:122.6
+2023-11-16 09:11.15 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:11.15 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:14.52 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:121.6
+2023-11-16 09:14.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:14.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:22.36 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:114.6
+2023-11-16 09:22.36 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:22.36 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:26.52 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:117.6
+2023-11-16 09:26.52 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:26.52 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:27.44 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:117.6
+2023-11-16 09:27.44 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:27.44 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:30.07 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:128.6
+2023-11-16 09:30.08 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:30.08 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:31.03 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 09:31.03 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:31.03 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:33.37 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:132.6
+2023-11-16 09:33.37 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:33.37 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:33.53 - [CommandHelper][ALWAYS][general] An update is available!
+2023-11-16 09:36.19 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:129.6
+2023-11-16 09:36.19 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:36.19 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:36.36 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 09:36.36 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:36.36 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:37.04 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 09:37.04 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:37.04 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:38.04 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 09:38.04 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:38.04 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:38.29 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 09:38.29 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:38.29 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:39.03 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 09:39.03 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:39.03 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:39.12 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 09:39.12 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:39.12 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:41.33 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:127.6
+2023-11-16 09:41.33 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:41.33 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:41.40 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.9
+2023-11-16 09:41.41 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.9
+2023-11-16 09:41.42 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.9
+2023-11-16 09:41.43 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.9
+2023-11-16 09:41.43 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:127.6
+2023-11-16 09:41.43 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:41.43 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:42.09 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:127.6
+2023-11-16 09:42.09 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:42.09 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:42.14 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.13
+2023-11-16 09:42.14 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:10.12
+2023-11-16 09:42.14 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.9
+2023-11-16 09:42.15 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.13
+2023-11-16 09:42.15 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:10.12
+2023-11-16 09:42.15 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.9
+2023-11-16 09:42.16 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.13
+2023-11-16 09:42.16 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:10.12
+2023-11-16 09:42.16 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.9
+2023-11-16 09:42.17 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.13
+2023-11-16 09:42.17 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:10.12
+2023-11-16 09:42.17 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.9
+2023-11-16 09:42.18 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.13
+2023-11-16 09:42.18 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:10.12
+2023-11-16 09:42.18 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.9
+2023-11-16 09:42.19 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.13
+2023-11-16 09:42.19 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:10.12
+2023-11-16 09:42.19 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.9
+2023-11-16 09:42.20 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.13
+2023-11-16 09:42.20 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:10.12
+2023-11-16 09:42.20 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.9
+2023-11-16 09:42.21 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.13
+2023-11-16 09:42.21 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:10.12
+2023-11-16 09:42.21 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.9
+2023-11-16 09:42.22 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:9.13
+2023-11-16 09:42.22 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:10.12
+2023-11-16 09:42.22 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:13.9
+2023-11-16 09:42.23 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:128.6
+2023-11-16 09:42.23 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:42.23 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:42.31 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:128.6
+2023-11-16 09:42.31 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:42.31 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:44.12 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:128.6
+2023-11-16 09:44.12 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:44.12 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:44.21 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:128.6
+2023-11-16 09:44.21 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:44.21 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:53.47 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:129.6
+2023-11-16 09:53.47 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:53.47 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:55.33 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:127.6
+2023-11-16 09:55.34 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:55.34 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:55.38 - [CommandHelper][ERROR][runtime] ms.lang.CastException: set_interval expects a Callable to be sent as the second argument
+	at proc _gameClock:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:14.24
+	at proc _startRound:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:93.5
+	at proc _addPlayerQueue:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:118.42
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.46
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:14.24
+2023-11-16 09:57.29 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 09:57.29 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:57.29 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 09:57.32 - [CommandHelper][ERROR][runtime] The variable @time is hiding another value of the same name in the main scope.
+2023-11-16 09:57.34 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.34 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.35 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.35 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.36 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.36 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.37 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.37 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.38 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.38 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.39 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.39 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.40 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.40 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.41 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.41 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.42 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.42 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.43 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.43 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.44 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.13
+2023-11-16 09:57.44 - [CommandHelper][ERROR][runtime] Using undefined variable: @time C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.9
+2023-11-16 09:57.44 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 09:57.44 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 09:57.44 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 10:28.38 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 10:28.38 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 10:28.38 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 10:28.53 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:130.6
+2023-11-16 10:28.53 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 10:28.53 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 10:29.42 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:133.6
+2023-11-16 10:29.42 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 10:29.42 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 10:31.17 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:133.6
+2023-11-16 10:31.17 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 10:31.17 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 10:31.36 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:133.6
+2023-11-16 10:31.36 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 10:31.36 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 10:31.57 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:133.6
+2023-11-16 10:31.57 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 10:31.57 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:29.36 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:133.6
+2023-11-16 11:29.36 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:29.36 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:32.45 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:133.6
+2023-11-16 11:32.45 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:32.45 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:33.16 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:133.6
+2023-11-16 11:33.17 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:33.17 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:40.02 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:146.6
+2023-11-16 11:40.02 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Incorrect number of arguments passed to bar_add_player
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:108.9
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:108.9
+2023-11-16 11:40.02 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:40.02 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:40.24 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:146.6
+2023-11-16 11:40.24 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:40.24 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:42.49 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:146.6
+2023-11-16 11:42.49 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:42.49 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:43.48 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:147.6
+2023-11-16 11:43.48 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:43.48 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:44.41 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:146.6
+2023-11-16 11:44.41 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:44.41 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:45.39 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:146.6
+2023-11-16 11:45.39 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:45.39 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:50.03 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:151.6
+2023-11-16 11:50.03 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:50.03 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:50.09 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.09 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.10 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.10 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.11 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.11 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.12 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.12 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.13 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.13 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.14 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.14 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.15 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.15 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.16 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.16 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.17 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.17 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.18 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.18 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.19 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.19 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.20 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.20 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.21 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.21 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.22 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.22 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.23 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.23 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.24 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.24 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.25 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.25 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.26 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.26 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.27 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.27 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.28 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.28 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.29 - [CommandHelper][ERROR][runtime] com.commandhelper.PlayerOfflineException: The player PPGOME is not online
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.47
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:15.47
+2023-11-16 11:50.30 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.30 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.31 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.31 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.32 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.32 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.33 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.33 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.34 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.34 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.35 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.35 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.36 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.36 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.37 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.37 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.38 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.38 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.39 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.39 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.40 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.40 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.41 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.41 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.42 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.42 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.43 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.43 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.44 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.44 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.45 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.45 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.46 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.46 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.47 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.47 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.48 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.48 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.49 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.49 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.50 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.50 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.51 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.51 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.52 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.52 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.53 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.53 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.54 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.54 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.55 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.55 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.56 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.56 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.57 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.57 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.58 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.58 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:50.59 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:50.59 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.00 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.00 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.01 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.01 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.02 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.02 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.03 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.03 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.04 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.04 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.05 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.05 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.06 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.06 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.07 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.07 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.08 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.08 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.09 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.09 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.10 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.10 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.11 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.11 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.12 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.12 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.13 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.13 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.14 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.14 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.15 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.15 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.16 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.16 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.17 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.17 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.18 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.18 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.19 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.19 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.20 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.20 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.21 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.21 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.22 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.22 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.23 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.23 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.24 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.24 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.25 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.25 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.26 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.26 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.27 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.27 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.28 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.28 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.29 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.29 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.30 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.30 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.31 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.24
+2023-11-16 11:51.31 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:17.68
+2023-11-16 11:51.32 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:151.6
+2023-11-16 11:51.32 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:51.32 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:51.38 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.38 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.39 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.39 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.40 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.40 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.41 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.41 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.42 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.42 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.43 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.43 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.44 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.44 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.45 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.45 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.46 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.46 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.47 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.47 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.48 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.48 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.49 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.24
+2023-11-16 11:51.49 - [CommandHelper][ERROR][runtime] ms.lang.NotFoundException: That boss bar id does not exist.
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:16.68
+2023-11-16 11:51.50 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:151.6
+2023-11-16 11:51.50 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:51.50 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-16 11:59.59 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\auto_include.ms:152.6
+2023-11-16 11:59.59 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-16 11:59.59 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3

@@ -1,0 +1,28 @@
+*:/nerdarena addeffect $arenaid $team $effect $potency $start $end= >>>
+    if(has_permission("nerdarena.effect.add")) {
+
+        @acceptedeffects = array('SLOWNESS', 'INVISIBILITY', 'SLOW_FALLING', 'BAD_OMEN', 'WEAKNESS', 'DOLPHINS_GRACE', 'INSTANT_DAMAGE',
+        'MINING_FATIGUE', 'SPEED', 'WITHER', 'LUCK', 'FIRE_RESISTANCE', 'WATER_BREATHING', 'GLOWING', 'ABSORPTION', 'HUNGER', 'BAD_LUCK',
+        'HERO_OF_THE_VILLAGE', 'REGENERATION', 'STRENGTH', 'BLINDNESS', 'LEVITATION', 'CONDUIT_POWER', 'JUMP_BOOST', 'POISON', 'NAUSEA',
+        'RESISTANCE', 'HEALTH_BOOST', 'DARKNESS', 'NIGHT_VISION', 'INSTANT_HEALTH', 'HASTE', 'SATURATION')
+
+        @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $arenaid)
+        @team = query('ZombieSQL', 'SELECT * FROM `arenateams` WHERE ArenaID = ? AND TeamName = ?', $arenaid, to_upper($team))
+        try{
+            if(@verify[0]['ArenaCreator'] == puuid(player())) {
+                if(array_size(@team) == 1) {
+                    if(array_contains(@acceptedeffects, $effect)) {
+                        @pstmt = query('ZombieSQL', 'INSERT INTO `arenaeffects`(ArenaID, Team, Effect, Potency, StartTime, EndTime) VALUES(?,?,?,?,?,?)',
+                        $arenaid, $team, $effect, $potency, $start, $end)
+                    } else {
+                        _mgMessage("That is not a valid effect. Valid effect names are: ".@acceptedeffects)
+                    }
+                } else {
+                    _mgMessage("That team does not exist!")
+                }
+            }
+        } catch(IndexOverflowException @e) {
+            _mgMessage("This arena does not exist!")
+        }
+    }
+<<<

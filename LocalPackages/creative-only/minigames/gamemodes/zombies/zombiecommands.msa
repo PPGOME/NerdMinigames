@@ -1,0 +1,3 @@
+*:/nerdarena forceend $gameid $clockid = >>>
+    _gameCloser(parse_int($gameid, 10), parse_int($clockid, 10))
+<<<

@@ -1,12 +1,12 @@
-*:/nerdarena additem $arenaid $team $randomized $chance= >>>
+*:/nerdarena additem $arenaid $team $chance= >>>
     if(has_permission("nerdarena.item.add")) {
         @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $arenaid)
         @team = query('ZombieSQL', 'SELECT * FROM `arenateams` WHERE ArenaID = ? AND TeamName = ?', $arenaid, to_upper($team))
         try{
-            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
+            if(@verify[0]['ArenaCreator'] == puuid(player())) {
                 if(array_size(@team) == 1) {
-                    @pstmt = query('ZombieSQL', 'INSERT INTO `arenaitems`(ArenaID, team, Item, Randomized, Chance) VALUES(?,?,?,?,?)',
-                    $arenaid, $team, json_encode(pinv(player(), null)), $randomized, $chance)
+                    @pstmt = query('ZombieSQL', 'INSERT INTO `arenaitems`(ArenaID, team, Item, Chance) VALUES(?,?,?,?)',
+                    $arenaid, $team, json_encode(pinv(player(), null)), $chance)
                 } else {
                     _mgMessage("That team does not exist!")
                 }
@@ -18,14 +18,14 @@
 <<<
 
 *:/nerdarena listitems $arenaid = >>>
-    if(has_permission(player(), 'nerdarena.spawn.list')) {
+    if(has_permission(player(), 'nerdarena.item.list')) {
         @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $arenaid)
         try{
             if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.list.other')) {
                 @items = query('ZombieSQL', 'SELECT * FROM `arenaitems` WHERE ArenaID = ?', $arenaid)
-                _mgMessage('Arena '.@spawns[0]['ArenaName'].' has '.array_size(@spawns).' spawns.')
-                foreach(@items, @item) {
-                    msg(color('AQUA').'ID: '.@items['ItemID'].' '.color('BLUE').' Name: '.json_decode(@items['Item']))
+                _mgMessage('Arena '.$arenaid.' has '.array_size(@items).' items.')
+                foreach(@item in @items) {
+                    msg(color('AQUA').'ID: '.@item['ItemID'].' '.color('BLUE').' Name: '.json_decode(@item['Item']))
                 }
             }
         } catch(IndexOverflowException @e) {
