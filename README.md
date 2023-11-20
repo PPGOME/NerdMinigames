@@ -59,7 +59,7 @@ For commands that need IDs (mostly just the delete commands), use the list comma
 - [X] Let players add teams to the arenas
 - [X] Let players add spawns to the arenas
 - [X] Let players add items to the arenas
-- [X] Let players add effects to the arenas
+- [ ] Let players add effects to the arenas
 - [X] Build the game queue logic
 - [X] Build the game start logic
 - [X] Build the game clock for mid-round events and time-keeping
