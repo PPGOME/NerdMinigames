@@ -69,5 +69,6 @@ For commands that need IDs (mostly just the delete commands), use the list comma
 - [ ] Document how to make an arena
 - [ ] Add armour modifcation to the arena customizer
 - [ ] Let players define game plates through commands
+- [ ] Add an end-round celebration thing (SRS mentioned this)
 - [ ] Add windows that only zombies can walk through
 - [ ] Add areas where blocks can be placed
