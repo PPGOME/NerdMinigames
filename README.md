@@ -52,7 +52,7 @@ For commands that need IDs (mostly just the delete commands), use the list comma
 # How to make an arena
 
 ## Creating the physical arena
-Before anything can be done, an arena must be made that encompasses the play area of the game. To do so, you must select two opposing corners of an arena with your WorldEdit tool. Create a **cuboid** selection and run the command `/nerdarena create [name]` where [name] is whatever you wish your arena to be called. Doing this requires you to have the `nerdarea.create` permission.
+Before anything can be done, an arena must be made that encompasses the play area of the game. To do so, you must select two opposing corners of an arena with your WorldEdit tool. Create a **cuboid** selection and run the command `/nerdarena create [name]` where [name] is whatever you wish your arena to be called. Doing this requires you to have the `nerdarena.create` permission.
 
 ![image](https://github.com/PPGOME/NerdMinigames/assets/67039523/684e7996-33ac-4b5d-b8b9-83a65d1de352)
 
