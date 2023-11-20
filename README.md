@@ -58,6 +58,14 @@ Before anything can be done, an arena must be made that encompasses the play are
 
 Once you get the message confirming that your arena is created, you may move on to the next section.
 
+## Adding teams
+
+## Adding spawns
+
+## Adding items
+
+## Adding effects
+
 # Current Roadmap
 - [X] Let players define an area for an arena
 - [X] Let players add teams to the arenas
