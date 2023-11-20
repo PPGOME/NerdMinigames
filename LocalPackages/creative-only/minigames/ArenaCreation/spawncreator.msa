@@ -2,7 +2,7 @@
  * Adds a spawn to the selected arena and assigns it to a team. Only that team will spawn at that spawn.
  */
 *:/nerdarena addspawn $arenaid $team = >>>
-    if(has_permission(player(), 'nerdarena.spawn.create')) {
+    if(has_permission(player(), 'nerdarena.create')) {
         @loc = ploc(player())
         @SQL = query('ZombieSQL', 'INSERT INTO `arenaspawns` (ArenaID, team, X, Y, Z, world, pitch, yaw)'
 			.' VALUES (?, ?, ?, ?, ?, ?, ?, ?)', $arenaid, to_upper($team), @loc['x'], @loc['y'], @loc['z'], @loc['world'], @loc['pitch'], @loc['yaw'])
@@ -14,7 +14,7 @@
  * Lists all spawns associated with
  */
 *:/nerdarena listspawns $arenaid = >>>
-    if(has_permission(player(), 'nerdarena.spawn.list')) {
+    if(has_permission(player(), 'nerdarena.list')) {
         try{
             @spawns = query('ZombieSQL', 'SELECT * FROM `arenaspawns` as spawns JOIN `arena` ON `spawns`.`ArenaID`=`arena`.`ArenaID` WHERE `spawns`.`ArenaID` = ?', $arenaid)
             _mgMessage('Arena '.@spawns[0]['ArenaName'].' has '.array_size(@spawns).' spawns.')
@@ -33,15 +33,17 @@
  * Deletes a spawnpoint from the database.
  */
 /nerdarena delspawn $spawnid = >>>
-    @verify = query('ZombieSQL', 'SELECT * FROM `arenaspawns` JOIN `arena` ON `arenaspawns`.`ArenaID`=`arena`.`ArenaID` WHERE `arenaspawns`.`spawnid` = ?', $spawnid)
-    try{
-        if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
-            @SQL = query('ZombieSQL', 'DELETE FROM `arenaspawns` WHERE spawnid = ?', $spawnid)
-            _mgMessage("Spawn deleted!")
-        } else {
-            _mgMessage("This spawn is not in an arena you own.")
+    if(has_permission(player(), 'nerdarena.delete')) {
+        @verify = query('ZombieSQL', 'SELECT * FROM `arenaspawns` JOIN `arena` ON `arenaspawns`.`ArenaID`=`arena`.`ArenaID` WHERE `arenaspawns`.`spawnid` = ?', $spawnid)
+        try{
+            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
+                @SQL = query('ZombieSQL', 'DELETE FROM `arenaspawns` WHERE spawnid = ?', $spawnid)
+                _mgMessage("Spawn deleted!")
+            } else {
+                _mgMessage("This spawn is not in an arena you own.")
+            }
+        } catch(IndexOverflowException @e) {
+            _mgMessage("This spawn does not exist.")
         }
-    } catch(IndexOverflowException @e) {
-        _mgMessage("This spawn does not exist.")
     }
 <<<

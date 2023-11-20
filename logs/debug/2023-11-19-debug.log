@@ -1,0 +1,193 @@
+2023-11-19 04:24.02 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:24.02 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:24.02 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:28.25 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:28.25 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:28.25 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:28.37 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:215.26
+2023-11-19 04:28.37 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Unknown column 'ZOMBIES' in 'where clause'
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.21
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.21
+2023-11-19 04:30.13 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:30.13 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:30.13 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:30.21 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:215.26
+2023-11-19 04:30.21 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Unknown column 'ZOMBIES' in 'where clause'
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.21
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.21
+2023-11-19 04:39.47 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:39.47 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:39.47 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:39.54 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.179
+2023-11-19 04:39.54 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Unknown column 'ZOMBIES' in 'where clause'
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.21
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.21
+2023-11-19 04:42.51 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:42.51 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:42.51 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:42.58 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.173
+2023-11-19 04:42.58 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Unknown column 'ZOMBIES' in 'field list'
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:217.127
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:217.127
+2023-11-19 04:43.08 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:43.08 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:43.08 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:43.30 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:43.30 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:43.30 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:43.38 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.173
+2023-11-19 04:43.38 - [CommandHelper][ERROR][runtime] ms.lang.IndexOverflowException: The element at index "0" does not exist
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:219.51
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:219.51
+2023-11-19 04:45.07 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:45.07 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:45.07 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:45.18 - [CommandHelper][ERROR][runtime] Using undefined variable: @GameID C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.173
+2023-11-19 04:45.18 - [CommandHelper][ERROR][runtime] ms.lang.IndexOverflowException: The element at index "0" does not exist
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:221.51
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:221.51
+2023-11-19 04:47.48 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:47.48 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:47.48 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:47.56 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Expecting an integer, but received "GameID" instead
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.195
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:214.195
+2023-11-19 04:48.46 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:48.46 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:48.46 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:48.57 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Expecting an integer, but received "GameID" instead
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:215.195
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:215.195
+2023-11-19 04:51.28 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:51.28 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:51.28 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:51.36 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Expecting an integer, but received "GameID" instead
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:215.31
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:215.31
+2023-11-19 04:51.59 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:51.59 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:51.59 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:52.07 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Expecting an integer, but received "GameID" instead
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:215.31
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:215.31
+2023-11-19 04:52.25 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:52.25 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:52.25 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:55.53 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:55.53 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:55.53 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:56.03 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Unknown column 'gameinstances.team' in 'where clause'
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.328
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.328
+2023-11-19 04:58.19 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 04:58.19 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 04:58.19 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 04:58.27 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.team FROM `arenaspawns` JOIN `gameinstances` ON `arenaspawns`.ArenaID = `gamein' at line 1
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.349
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.349
+2023-11-19 05:00.01 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 05:00.01 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 05:00.01 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 05:00.09 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Unknown column 'gameinstances.team' in 'where clause'
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.328
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.328
+2023-11-19 05:01.45 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 05:01.45 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 05:01.45 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 05:01.54 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.team FROM `arenaspawns` JOIN `gameinstances` ON `arenaspawns`.ArenaID = `gamein' at line 1
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.347
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.347
+2023-11-19 05:02.11 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 05:02.11 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 05:02.11 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 05:02.19 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.team FROM `arenaspawns` JOIN `gameinstances` ON `arenaspawns`.ArenaID = `gamein' at line 1
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.345
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.345
+2023-11-19 05:03.12 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 05:03.12 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 05:03.12 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 05:03.19 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Unknown column 'arenaspawns.GameID' in 'where clause'
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.346
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.346
+2023-11-19 05:03.47 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 05:03.47 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 05:03.47 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 05:03.54 - [CommandHelper][ERROR][runtime] ms.lang.SQLException: Unknown column 'gameinstances.team' in 'where clause'
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.348
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:216.348
+2023-11-19 05:04.18 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 05:04.19 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 05:04.19 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 05:04.26 - [CommandHelper][ERROR][runtime] ms.lang.CastException: Expecting an integer, but received "team" instead
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:221.9
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:221.9
+2023-11-19 05:07.18 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 05:07.18 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 05:07.18 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 05:07.26 - [CommandHelper][ERROR][runtime] ms.lang.IndexOverflowException: The element at index "0" does not exist
+	at <<main code>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:225.51
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:225.51
+2023-11-19 05:07.45 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 05:07.45 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 05:07.45 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 05:09.16 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 05:09.16 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 05:09.16 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 05:16.25 - [CommandHelper][WARNING][compiler] (UseBareStrings) Use of bare string C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:185.6
+2023-11-19 05:16.25 - [CommandHelper][WARNING][compiler] (UselessCode) Empty statement. C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\commands.msa:308.86
+2023-11-19 05:16.25 - [CommandHelper][ERROR][compiler] COMPILE ERROR: Duplicate command defined. (First occurrence found at C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\arenacreator.msa:18.3)
+	at :C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\ArenaCreation\teamcreator.msa:7.3
+2023-11-19 05:26.31 - [CommandHelper][ERROR][runtime] Using undefined variable: @clock C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:14.16
+2023-11-19 05:26.31 - [CommandHelper][ERROR][runtime] ms.lang.NullPointerException: Null value sent to clear_task(). Did you mean clear_task(0)?
+	at proc _gameCloser:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:14.5
+	at <<closure>>:C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:47.13
+ C:\Users\kiwid\Desktop\Servers\1.19 Dev Server\plugins\CommandHelper\LocalPackages\creative-only\minigames\gamemodes\zombies\auto_include.ms:14.5

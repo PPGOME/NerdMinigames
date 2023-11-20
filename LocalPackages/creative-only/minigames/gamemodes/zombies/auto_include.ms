@@ -173,7 +173,7 @@ proc _addPlayerQueue(string @uuid) {
             @addplayer = query('ZombieSQL', 'INSERT INTO `gameplayers` (GameID, PlayerUUID) VALUES (?, ?)', @getopengame[0]['GameID'], @uuid)
             console('Player '.@uuid.' has joined the queue for Zombies.')
             @getplayers = query('ZombieSQL', 'SELECT * FROM `gameplayers` WHERE GameID = ?', @getopengame[0]['GameID'])
-            if(array_size(@getplayers) == 2) { // CHANGE TO THE MAX PLAYERS
+            if(array_size(@getplayers) == 1) { // CHANGE TO THE MAX PLAYERS
                 _startRound(@getopengame[0]['GameID'])
         }
     }
@@ -209,15 +209,21 @@ bind(entity_damage_player, null, null, @event) {
     }
 }
 
+// When the player respawns, change their team to that of zombies and 
 bind(player_spawn, null, null, @event) {
     @playerexists = query('ZombieSQL', 'SELECT * FROM `gameplayers` WHERE PlayerUUID = ?', puuid(@event['player']))
-    @zombiespawns = query('ZombieSQL', 'SELECT * FROM `arenaspawns` JOIN `gameinstances` ON `arenaspawns`.ArenaID = `gameinstances`.ArenaID WHERE GameID = ?
-    AND Team = ZOMBIES', @GameID)
-// LOOK OVER, TEST, I DID THIS WITHOUT TESTING
+    @zombiespawns = query('ZombieSQL', 'SELECT `arenaspawns`.X, `arenaspawns`.Y, `arenaspawns`.Z, `arenaspawns`.World, `arenaspawns`.Pitch, `arenaspawns`.Yaw,
+    `arenaspawns`.team FROM `arenaspawns` JOIN `gameinstances` ON `arenaspawns`.ArenaID = `gameinstances`.ArenaID WHERE
+    `gameinstances`.GameID = ? AND `arenaspawns`.team = ?', @playerexists[0]['GameID'], 'ZOMBIES')
     if(array_size(@playerexists) == 1) {
-        @updateteam = query('ZombieSQL', 'UPDATE `gameplayers` SET Team = ZOMBIES WHERE PlayerUUID = ?', puuid(@event['player']))
-        @tospawnatzombie = array_rand(@zombiespawns, 1, false)
-        modify_event('location', @tospawnatzombie[0])
+        @updateteam = query('ZombieSQL', 'UPDATE `gameplayers` SET Team = ? WHERE PlayerUUID = ?', 'ZOMBIES', puuid(@event['player']))
+        @randomizespawns = array_rand(@zombiespawns, 1, false)
+        @tospawnatzombie = @randomizespawns[0]
+        array_remove(@tospawnatzombie, 'team')
+        msg(@zombiespawns)
+        msg(@tospawnatzombie)
+        modify_event('location', array(@tospawnatzombie['X'], @tospawnatzombie['Y'], @tospawnatzombie['Z'], @tospawnatzombie['World'], @tospawnatzombie['Pitch'], @tospawnatzombie['Yaw']))
+        _giveItems(@playerexists[0]['PlayerUUID'], @playerexists[0]['GameID'])
     }
 }
 

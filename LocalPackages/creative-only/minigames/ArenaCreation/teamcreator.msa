@@ -5,7 +5,7 @@
  * @usage /nerdarena create <team name>
  */
 *:/nerdarena addteam $arenaid $name = >>>
-    if(has_permission(player(), 'nerdarena.team.create')) {
+    if(has_permission(player(), 'nerdarena.create')) {
         @SQL = query('ZombieSQL', 'INSERT INTO `arenateams` (ArenaID, TeamName) VALUES (?, ?)', $arenaid, to_upper($name))
             _mgMessage("Team created!")
     }
@@ -13,8 +13,7 @@
 
 # Allows a user to delete a team their own arena. If an admin/mod (maybe?), can delete other player's teams
 *:/nerdarena delteam $arenaid $team = >>>
-
-    if(has_permission(player(), 'nerdarena.team.delete')) {
+    if(has_permission(player(), 'nerdarena.delete')) {
         @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $arenaid)
         try{
             if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
@@ -37,8 +36,7 @@
  * Lists $player's created arenas with IDs
  */
 *:/nerdarena listteams $arenaid = >>>
-
-    if(has_permission(player(), 'nerdarena.team.list')) {
+    if(has_permission(player(), 'nerdarena.list')) {
         @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $arenaid)
         try{
             if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.list.other')) {
