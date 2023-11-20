@@ -4,6 +4,8 @@ Located here is a fork of the NerdNu CommandHelper repo. I've added the required
 
 The added files are located in the LocalPackages/creative-only/minigames directory of this repo.
 
+The ZombieSQL database defined in the code can be generated using the following [SQL file](https://we.tl/t-NdZngLEPZd).
+
 Below is the documentation on how to use these scripts.
 
 # Commands & Permissions
@@ -38,7 +40,7 @@ For commands that need IDs (mostly just the delete commands), use the list comma
 |---------|-------------|------------|
 | /nerdarena additem \<arena id> \<team name> | Creates a new item for the arena and team specificed. Note that the item being held is what is saved. All data is saved - name, enchantments, NBT data, the amount of item, etc. Whatever you see in that slot when the command is run is what the arena will have. | nerdarena.create |
 | /nerdarena listitems \<arena id> | Lists your items if no player is given if you own the arena or have the permission to see other arena's information. Output is in JSON for now, will be updated later on to simplify the view. | nerdarena.create |
-| /nerdarena deleteitem \<item id> | Deletes the arena's item with the ID specified if it's your arena or you have permission to delete other arena's information. | nerdarena.delete |
+| /nerdarena delitem \<item id> | Deletes the arena's item with the ID specified if it's your arena or you have permission to delete other arena's information. | nerdarena.delete |
 
 ## Effect Modification Commands
 | Command | Explanation | Permission |
@@ -46,3 +48,26 @@ For commands that need IDs (mostly just the delete commands), use the list comma
 | /nerdarena addeffect \<arena id> \<team> \<effect> \<strength> \<start> \<end> | Adds an effect that will affect all players of the team specified between the two times provided, in seconds. The beginning of the round is 600, end is 0. | nerdarena.create |
 | (WIP) /nerdarena listeffects \<arena id> | Lists the effects belonging to an arena if it's your arena or you have permission to delete other arena's information. | nerdarena.list |
 | (WIP) /nerdarena deleffect \<effect id> | Deletes an existing effect from an arena if it's your arena or you have permission to delete other arena's information. | nerdarena.delete |
+
+# How to make an arena
+
+## Creating the physical arena
+
+
+# Current Roadmap
+- [X] Let players define an area for an arena
+- [X] Let players add teams to the arenas
+- [X] Let players add spawns to the arenas
+- [X] Let players add items to the arenas
+- [X] Let players add effects to the arenas
+- [X] Build the game queue logic
+- [X] Build the game start logic
+- [X] Build the game clock for mid-round events and time-keeping
+- [X] Add anti-teamkill system
+- [X] Build kill logic
+- [X] Document commands
+- [ ] Document how to make an arena
+- [ ] Add armour modifcation to the arena customizer
+- [ ] Let players define game plates through commands
+- [ ] Add windows that only zombies can walk through
+- [ ] Add areas where blocks can be placed
