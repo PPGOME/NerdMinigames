@@ -70,6 +70,7 @@ Once you get the message confirming that your arena is created, you may move on 
 - [X] Add anti-teamkill system
 - [X] Build kill logic
 - [X] Document commands
+- [ ] Add a way to end the game if all humans die
 - [ ] Document how to make an arena
 - [ ] Add armour modifcation to the arena customizer
 - [ ] Let players define game plates through commands
