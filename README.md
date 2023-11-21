@@ -93,7 +93,7 @@ Next, let's make an item for the zombies. I decided to give them a little snack,
 
 ![image](https://github.com/PPGOME/NerdMinigames/assets/67039523/21c691b9-f326-4b19-ad06-015e99567ab4)
 
-For this I just renamed potatoes, but you can see that there's 8 of them in that slot. If I run that command to save the item, it also saves the amount of items in that slot. So make sure you hold the amount you want to hand out. The command I would run for this would be `/nerdarena additem <arena id> HUMANS 50`.
+For this I just renamed potatoes, but you can see that there's 8 of them in that slot. If I run that command to save the item, it also saves the amount of items in that slot. So make sure you hold the amount you want to hand out. The command I would run for this would be `/nerdarena additem <arena id> ZOMBIES 50`.
 
 But wait, that 100 became a 50 in the second command? Yes, that indicates that whenever a zombie respawns, it has a 50% chance of spawning with that item. Make sure to modify that if you want items to have a _possibility_ of spawning in. Otherwise just use 100 to indicate that it always spawns with a player.
 
