@@ -99,6 +99,12 @@ But wait, that 100 became a 50 in the second command? Yes, that indicates that w
 
 ## Adding effects
 
+Before adding effects, we have to understand how the game's clock works.
+
+The game clock counts down from 600 to 0. The round is 10 minutes long, which is 600 seconds. Effects use a start and end time as they are effects applied by the game based on areas of time specified. However, how it is currently set up is that the beginning of the round is at 600 seconds and the end is 0 seconds.
+
+Based on that information, we can understand how to apply it to the effects command. Say I wanted to give the humans swiftness 1 from the beginning of the round and end it 4 minutes in. The command I would run would be `/nerdarena addeffect <arena id> HUMANS SPEED 1 600 360`. Notice how the effect name isn't SWIFTNESS? That's because some effect names are different depending on where you look at them. And where the game looks, a few names don't match what you're used to. Below is a table with all of the effect names you're used to and the ones needed for this command.
+
 | Minecraft Name | Minigame Name || Minecraft Name | Minigame Name |
 |---------|-------------|-|---------|-------------|
 | Slowness | SLOWNESS || Invisibility | INVISIBILITY |
@@ -119,6 +125,9 @@ But wait, that 100 became a 50 in the second command? Yes, that indicates that w
 | Instant Health | INSTANT_HEALTH || Haste | HASTE |
 | Saturation | SATURATION ||||
 
+And going back to the beginning regarding the game's handling of time, let's look at the command we made again: `/nerdarena addeffect <arena id> HUMANS SPEED 1 600 360`. At the end, you can see the numbers 600 and 360. 600 indicates that this starts at the beginning of the round. 599 would be 1 second into the round. For the second number, 360, that's 600 minus 240. We do that because 240 seconds is 4 minutes, meaning we want to end this effect 4 minutes into the round.
+
+It can be a bit confusing, but tinkering around with it will help it make more sense, so play around!
 
 # Current Roadmap
 - [X] Let players define an area for an arena
