@@ -4,7 +4,7 @@ Located here is a fork of the NerdNu CommandHelper repo. I've added the required
 
 The added files are located in the LocalPackages/creative-only/minigames directory of this repo.
 
-The ZombieSQL database defined in the code can be generated using the following [SQL file](https://we.tl/t-NdZngLEPZd).
+The ZombieSQL database defined in the code can be generated using the following [SQL file](https://we.tl/t-BhdiK9cFRE).
 
 Below is the documentation on how to use these scripts.
 
