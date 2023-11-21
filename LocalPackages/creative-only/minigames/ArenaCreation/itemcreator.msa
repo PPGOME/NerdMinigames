@@ -7,6 +7,7 @@
                 if(array_size(@team) == 1) {
                     @pstmt = query('ZombieSQL', 'INSERT INTO `arenaitems`(ArenaID, team, Item, Chance) VALUES(?,?,?,?)',
                     $arenaid, $team, json_encode(pinv(player(), null)), $chance)
+                    _mgMessage('Item added to arena!')
                 } else {
                     _mgMessage("That team does not exist!")
                 }
@@ -34,13 +35,6 @@
     }
 <<<
 
-// foreach(@spawns, @spawn) {
-//                 msg(color('AQUA').'ID: '.@spawn['spawnid'].' '.color('BLUE').' X: '.@spawn['X'].' '.color('GREEN').' Y: '.@spawn['Y'].' '.color('RED').' Z: '.@spawn['Z'].' '
-//                 .color('YELLOW').' Team: '.@spawn['team'])
-//                 // runas('~console', '/tellraw '.player().' {"text":"ID: X: '.@spawn['X']' Y: '.@spawn['Y']' Z: '.@spawn['Z']' Team: '.@spawn['team']'","clickEvent"'
-//                 // .':{"action":"run_command","value":"tp '.player().' '.@spawn['X'].' '.@spawn['Y'].' '.@spawn['Z'].' '.@spawn['world'].' '.@spawn['pitch'].' '.@spawn['yaw']'"}}')
-//             }
-
 /nerdarena delitem $itemid = >>>
     @verify = query('ZombieSQL', 'SELECT * FROM `arenaitems` JOIN `arena` ON `arenaitems`.`ArenaID`=`arena`.`ArenaID` WHERE `arenaitems`.`ItemID` = ?', $itemid)
     try{
@@ -53,9 +47,4 @@
     } catch(IndexOverflowException @e) {
         _mgMessage("This item does not exist.")
     }
-<<<
-
-*:/nerdarena whatisthisitem = >>>
-    msg(pinv(player(), null))
-    pgive_item(pinv(player(), null))
 <<<

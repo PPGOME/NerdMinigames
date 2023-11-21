@@ -43,12 +43,13 @@ proc _gameClock(int @GameID, int @ArenaID) {
         }
         // Once 10 minutes passes, stop the loop and move over to the end game procedure.
         if(@time[0] == 0) {
-            clear_task();
-            _gameCloser(@GameID)
+            @getclock = query('ZombieSQL', 'SELECT * FROM `gameinstances` WHERE GameID = ?', @playerexists[0]['GameID'])
+            _gameCloser(@GameID, @getclock[0]['ClockID'])
         }
         @time[0]--
     });
 
+    @saveclockid = query('ZombieSQL', 'UPDATE `gameinstances` SET ClockID = ? WHERE GameID = ?', @clock, @GameID)
     console('Clock ID for game shutdown: '.@clock)
 
 }
@@ -165,15 +166,14 @@ proc _addPlayerQueue(string @uuid) {
         // If there are no games waiting for players, make a new one.
         if(array_size(@getopengame) == 0) {
             _mgMessage('There were no open games. Creating a new one...')
-            @newgame = query('ZombieSQL', 'INSERT INTO `gameinstances` (ArenaID, GameStatus) VALUES (?, ?)', 10, 'open')
+            @newgame = query('ZombieSQL', 'INSERT INTO `gameinstances` (ArenaID, GameStatus) VALUES (?, ?)', 12, 'open')
         }
         // Add player to game, then wait for more players to connect. Once the playercount is reached, call the procedure to start the game.
         @getopengame = query('ZombieSQL', 'SELECT * from `gameinstances` WHERE `GameStatus` = ?', 'open')
-        console(@getopengame[0])
             @addplayer = query('ZombieSQL', 'INSERT INTO `gameplayers` (GameID, PlayerUUID) VALUES (?, ?)', @getopengame[0]['GameID'], @uuid)
             console('Player '.@uuid.' has joined the queue for Zombies.')
             @getplayers = query('ZombieSQL', 'SELECT * FROM `gameplayers` WHERE GameID = ?', @getopengame[0]['GameID'])
-            if(array_size(@getplayers) == 1) { // CHANGE TO THE MAX PLAYERS
+            if(array_size(@getplayers) == 2) { // CHANGE TO THE MAX PLAYERS
                 _startRound(@getopengame[0]['GameID'])
         }
     }
@@ -183,8 +183,8 @@ proc _addPlayerQueue(string @uuid) {
 // Pressure plates will currently act as the way to join a game. Plates can be defined with /nerdarena addplate [arena id] and,
 // upon stepping on one, will have the player join the queue for that arena
 bind(pressure_plate_activated, null, null, @event) {
-    if((@event['location']['x'] == -67) && (@event['location']['y'] == 90) &&
-    (@event['location']['z'] == 41) && (@event['location']['world'] == 'world') ) {
+    if((@event['location']['x'] == 112) && (@event['location']['y'] == 103) &&
+    (@event['location']['z'] == 103) && (@event['location']['world'] == 'world') ) {
         _addPlayerQueue(puuid(@event['player']))
     }
 }
@@ -212,17 +212,30 @@ bind(entity_damage_player, null, null, @event) {
 // When the player respawns, change their team to that of zombies and 
 bind(player_spawn, null, null, @event) {
     @playerexists = query('ZombieSQL', 'SELECT * FROM `gameplayers` WHERE PlayerUUID = ?', puuid(@event['player']))
-    @zombiespawns = query('ZombieSQL', 'SELECT `arenaspawns`.X, `arenaspawns`.Y, `arenaspawns`.Z, `arenaspawns`.World, `arenaspawns`.Pitch, `arenaspawns`.Yaw,
-    `arenaspawns`.team FROM `arenaspawns` JOIN `gameinstances` ON `arenaspawns`.ArenaID = `gameinstances`.ArenaID WHERE
-    `gameinstances`.GameID = ? AND `arenaspawns`.team = ?', @playerexists[0]['GameID'], 'ZOMBIES')
+    if(array_size(@playerexists) != 0) {
+        @zombiespawns = query('ZombieSQL', 'SELECT `arenaspawns`.X, `arenaspawns`.Y, `arenaspawns`.Z, `arenaspawns`.World, `arenaspawns`.Pitch, `arenaspawns`.Yaw,
+        `arenaspawns`.team FROM `arenaspawns` JOIN `gameinstances` ON `arenaspawns`.ArenaID = `gameinstances`.ArenaID WHERE
+        `gameinstances`.GameID = ? AND `arenaspawns`.team = ?', @playerexists[0]['GameID'], 'ZOMBIES')
+    }
+    // If the player is participating in a game
     if(array_size(@playerexists) == 1) {
+        // Change the player's team to zombies
         @updateteam = query('ZombieSQL', 'UPDATE `gameplayers` SET Team = ? WHERE PlayerUUID = ?', 'ZOMBIES', puuid(@event['player']))
+        @gethumans = query('ZombieSQL', 'SELECT * FROM `gameplayers` WHERE GameID = ? AND Team = ?', @playerexists[0]['GameID'], 'HUMANS')
+        // Check to see if they're the last human to die. If so, end game
+        if(array_size(@gethumans) == 0) {
+            @getclock = query('ZombieSQL', 'SELECT * FROM `gameinstances` WHERE GameID = ?', @playerexists[0]['GameID'])
+            _gameCloser(@playerexists[0]['GameID'], @getclock[0]['ClockID'])
+            return()
+        }
         @randomizespawns = array_rand(@zombiespawns, 1, false)
         @tospawnatzombie = @randomizespawns[0]
         array_remove(@tospawnatzombie, 'team')
         msg(@zombiespawns)
         msg(@tospawnatzombie)
+        // With the spawn randomized, spawn them at that location
         modify_event('location', array(@tospawnatzombie['X'], @tospawnatzombie['Y'], @tospawnatzombie['Z'], @tospawnatzombie['World'], @tospawnatzombie['Pitch'], @tospawnatzombie['Yaw']))
+        // Give the player zombie items
         _giveItems(@playerexists[0]['PlayerUUID'], @playerexists[0]['GameID'])
     }
 }

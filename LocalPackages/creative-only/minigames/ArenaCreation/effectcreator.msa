@@ -1,5 +1,5 @@
 *:/nerdarena addeffect $arenaid $team $effect $potency $start $end= >>>
-    if(has_permission("nerdarena.effect.add")) {
+    if(has_permission("nerdarena.create")) {
 
         @acceptedeffects = array('SLOWNESS', 'INVISIBILITY', 'SLOW_FALLING', 'BAD_OMEN', 'WEAKNESS', 'DOLPHINS_GRACE', 'INSTANT_DAMAGE',
         'MINING_FATIGUE', 'SPEED', 'WITHER', 'LUCK', 'FIRE_RESISTANCE', 'WATER_BREATHING', 'GLOWING', 'ABSORPTION', 'HUNGER', 'BAD_LUCK',
@@ -12,17 +12,50 @@
             if(@verify[0]['ArenaCreator'] == puuid(player())) {
                 if(array_size(@team) == 1) {
                     if(array_contains(@acceptedeffects, $effect)) {
-                        @pstmt = query('ZombieSQL', 'INSERT INTO `arenaeffects`(ArenaID, Team, Effect, Potency, StartTime, EndTime) VALUES(?,?,?,?,?,?)',
+                        @pstmt = query('ZombieSQL', 'INSERT INTO `arenaeffects`(ArenaID, EffectTeam, Effect, Potency, StartTime, EndTime) VALUES(?,?,?,?,?,?)',
                         $arenaid, $team, $effect, $potency, $start, $end)
+                        _mgMessage('Effect added to arena!')
                     } else {
                         _mgMessage("That is not a valid effect. Valid effect names are: ".@acceptedeffects)
                     }
                 } else {
-                    _mgMessage("That team does not exist!")
+                    _mgMessage("That effect does not exist!")
                 }
             }
         } catch(IndexOverflowException @e) {
             _mgMessage("This arena does not exist!")
         }
+    }
+<<<
+
+*:/nerdarena listeffects $arenaid = >>>
+    if(has_permission(player(), 'nerdarena.list')) {
+        @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $arenaid)
+        try{
+            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.list.other')) {
+                @effects = query('ZombieSQL', 'SELECT * FROM `arenaeffects` WHERE ArenaID = ?', $arenaid)
+                _mgMessage('Arena '.$arenaid.' has '.array_size(@effects).' effects.')
+                foreach(@effect in @effects) {
+                    msg(color('AQUA').'ID: '.@effect['EffectID'].' '.color('BLUE').' Team: '.@effect['EffectTeam'].' '.color('GREEN').' Effect: '.@effect['Effect']
+                    .' '.color('YELLOW').' Strength: '.@effect['Potency'].' '.color('RED').' Start: '.@effect['StartTime'].' '.color('LIGHT_PURPLE').' End: '.@effect['EndTime'])
+                }
+            }
+        } catch(IndexOverflowException @e) {
+            _mgMessage("This arena does not exist!")
+        }
+    }
+<<<
+
+/nerdarena deleffect $effectid = >>>
+    @verify = query('ZombieSQL', 'SELECT * FROM `arenaeffects` JOIN `arena` ON `arenaeffects`.`ArenaID`=`arena`.`ArenaID` WHERE `arenaeffects`.`EffectID` = ?', $effectid)
+    try{
+        if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
+            @SQL = query('ZombieSQL', 'DELETE FROM `arenaeffects` WHERE EffectID = ?', $effectid)
+            _mgMessage("Effect deleted!")
+        } else {
+            _mgMessage("This Effect is not in an arena you own.")
+        }
+    } catch(IndexOverflowException @e) {
+        _mgMessage("This effect does not exist.")
     }
 <<<
