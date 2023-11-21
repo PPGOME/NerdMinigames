@@ -49,7 +49,7 @@ For commands that need IDs (mostly just the delete commands), use the list comma
 | (WIP) /nerdarena listeffects \<arena id> | Lists the effects belonging to an arena if it's your arena or you have permission to delete other arena's information. | nerdarena.list |
 | (WIP) /nerdarena deleffect \<effect id> | Deletes an existing effect from an arena if it's your arena or you have permission to delete other arena's information. | nerdarena.delete |
 
-# How to make an arena
+# How to make your own Zombies minigame
 
 ## Creating the physical arena
 Before anything can be done, an arena must be made that encompasses the play area of the game. To do so, you must select two opposing corners of an arena with your WorldEdit tool. Create a **cuboid** selection and run the command `/nerdarena create [name]` where [name] is whatever you wish your arena to be called. Doing this requires you to have the `nerdarena.create` permission.
@@ -80,6 +80,22 @@ Use the following commands to create a new spawn:
 - `/nerdarena addspawn <arena id> ZOMBIES`
 
 ## Adding items
+
+Items are easily the most customizable options this minigame has to offer. Literally any aspect of any item is able to be modified and saved, as long as Minecraft allows it.
+
+Let's make a sword for the humans to wield. We'll name an iron sword to fancy it up and give it the sharpness enchantment. The image below is the item I'll be giving out to players:
+
+![image](https://github.com/PPGOME/NerdMinigames/assets/67039523/40a0ef56-d9bd-463e-97f1-aa7c8a86fe97)
+
+The command I'll use to make this will be `/nerdarena additem <arena id> HUMANS 100`. Why is there a 100 at the end? That's the chance option. If you want a team to spawn with an item 100% of the time, set that number to 100. This command means that every human that spawns will have this iron sword.
+
+Next, let's make an item for the zombies. I decided to give them a little snack, pictured below:
+
+![image](https://github.com/PPGOME/NerdMinigames/assets/67039523/21c691b9-f326-4b19-ad06-015e99567ab4)
+
+For this I just renamed potatoes, but you can see that there's 8 of them in that slot. If I run that command to save the item, it also saves the amount of items in that slot. So make sure you hold the amount you want to hand out. The command I would run for this would be `/nerdarena additem <arena id> HUMANS 50`.
+
+But wait, that 100 became a 50 in the second command? Yes, that indicates that whenever a zombie respawns, it has a 50% chance of spawning with that item. Make sure to modify that if you want items to have a _possibility_ of spawning in. Otherwise just use 100 to indicate that it always spawns with a player.
 
 ## Adding effects
 
