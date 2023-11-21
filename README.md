@@ -39,7 +39,7 @@ For commands that need IDs (mostly just the delete commands), use the list comma
 | Command | Explanation | Permission |
 |---------|-------------|------------|
 | /nerdarena additem \<arena id> \<team name> | Creates a new item for the arena and team specificed. Note that the item being held is what is saved. All data is saved - name, enchantments, NBT data, the amount of item, etc. Whatever you see in that slot when the command is run is what the arena will have. | nerdarena.create |
-| /nerdarena listitems \<arena id> | Lists your items if no player is given if you own the arena or have the permission to see other arena's information. Output is in JSON for now, will be updated later on to simplify the view. | nerdarena.create |
+| /nerdarena listitems \<arena id> | Lists your items if no player is given if you own the arena or have the permission to see other arena's information. Output is in JSON for now, will be updated later on to simplify the view. | nerdarena.list |
 | /nerdarena delitem \<item id> | Deletes the arena's item with the ID specified if it's your arena or you have permission to delete other arena's information. | nerdarena.delete |
 
 ## Effect Modification Commands
