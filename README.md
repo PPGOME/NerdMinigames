@@ -69,12 +69,22 @@ The zombie minigame requires two specific teams with specific names, those being
 
 ## Adding spawns
 
+Players will need spots in your arena to spawn at throughout the course of the game. Setting up these spawns is dependant on the teams created above, so make sure to do those first.
+
+Each team can have multiple spawns, but both use those spawns differently than the other. Humans will have a spawn randomized at the beginning of the round and only once. The game will spawn the humans all together in that area _once_ for the entire round. Humans never spawn again. Zombies, however, respawn constantly throughout the game and their spawn is randomized each time.
+
+When running the command to add a spawn, the game takes your current coordinates as well as the direction you're looking and saves it. Whatever you see when the command is run is what the players will see when spawning in.
+
+Use the following commands to create a new spawn:
+- `/nerdarena addspawn <arena id> HUMANS`
+- `/nerdarena addspawn <arena id> ZOMBIES`
+
 ## Adding items
 
 ## Adding effects
 
 | Minecraft Name | Minigame Name || Minecraft Name | Minigame Name |
-|---------|-------------||---------|-------------|
+|---------|-------------|-|---------|-------------|
 | Strength | STRENGTH || Strength | STRENGTH |
 | Strength | STRENGTH || Strength | STRENGTH |
 | Strength | STRENGTH || Strength | STRENGTH |
