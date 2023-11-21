@@ -134,15 +134,15 @@ It can be a bit confusing, but tinkering around with it will help it make more s
 - [X] Let players add teams to the arenas
 - [X] Let players add spawns to the arenas
 - [X] Let players add items to the arenas
-- [ ] Let players add effects to the arenas
+- [X] Let players add effects to the arenas
 - [X] Build the game queue logic
 - [X] Build the game start logic
 - [X] Build the game clock for mid-round events and time-keeping
 - [X] Add anti-teamkill system
 - [X] Build kill logic
 - [X] Document commands
-- [ ] Add a way to end the game if all humans die
-- [ ] Document how to make an arena
+- [X] Add a way to end the game if all humans die
+- [X] Document how to make an arena
 - [ ] Add armour modifcation to the arena customizer
 - [ ] Let players define game plates through commands
 - [ ] Add an end-round celebration thing (SRS mentioned this)
