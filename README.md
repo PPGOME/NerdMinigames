@@ -60,11 +60,33 @@ Once you get the message confirming that your arena is created, you may move on 
 
 ## Adding teams
 
+Adding teams is the first step that should be done when creating the arena. Anything following has no particular order.
+
+The zombie minigame requires two specific teams with specific names, those being HUMANS and ZOMBIES. Run the commands below to set them up, but fill the `<arena id>` field with your arena's ID (`/nerdarena list`)
+
+- `/nerdarena addteam <arena id> HUMANS`
+- `/nerdarena addteam <arena id> ZOMBIES`
+
 ## Adding spawns
 
 ## Adding items
 
 ## Adding effects
+
+| Minecraft Name | Minigame Name || Minecraft Name | Minigame Name |
+|---------|-------------||---------|-------------|
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
+| Strength | STRENGTH || Strength | STRENGTH |
 
 # Current Roadmap
 - [X] Let players define an area for an arena
