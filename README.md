@@ -101,18 +101,24 @@ But wait, that 100 became a 50 in the second command? Yes, that indicates that w
 
 | Minecraft Name | Minigame Name || Minecraft Name | Minigame Name |
 |---------|-------------|-|---------|-------------|
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
-| Strength | STRENGTH || Strength | STRENGTH |
+| Slowness | SLOWNESS || Invisibility | INVISIBILITY |
+| Slow Falling | SLOW_FALLING || Bad Omen | BAD_OMEN |
+| Weakness | WEAKNESS || Dolphin's Grace | DOLPHINS_GRACE |
+| Harming | INSTANT_DAMAGE || Mining Fatigue | MINING_FATIGUE |
+| Swiftness | SPEED || Withering | WITHER |
+| Luck | LUCK || Fire Resistance | FIRE_RESISTANCE |
+| Water Breathing | WATER_BREATHING || Glowing | GLOWING |
+| Absorption | ABSORPTION || Hunger | HUNGER |
+| Bad Luck | BAD_LUCK || Hero of the Village | HERO_OF_THE_VILLAGE |
+| Regeneration | REGENERATION || Strength | STRENGTH |
+| Blindness | BLINDNESS || Levitation | LEVITATION |
+| Conduit Power | CONDUIT_POWER || Jump Boost | JUMP_BOOST |
+| Poison | POISON || Nausea | NAUSEA |
+| Resistance | RESISTANCE || Regeneration | HEALTH_BOOST |
+| Darkness | DARKNESS || Night Vision | NIGHT_VISION |
+| Instant Health | INSTANT_HEALTH || Haste | HASTE |
+| Saturation | SATURATION ||||
+
 
 # Current Roadmap
 - [X] Let players define an area for an arena
