@@ -158,7 +158,7 @@ proc _startRound(int @GameID) {
 proc _addPlayerQueue(string @uuid, int @arenaid) {
     @opengame = ''
 
-    @getopengame = query('ZombieSQL', 'SELECT * from `gameinstances` WHERE `GameStatus` = ?', 'open')
+    @getopengame = query('ZombieSQL', 'SELECT * from `gameinstances` WHERE `GameStatus` = ? AND ArenaID = ?', 'open', @arenaid)
 
     @playerexists = query('ZombieSQL', 'SELECT * FROM `gameplayers` WHERE PlayerUUID = ?', @uuid)
     // Checks if the player is already queued up for or is in a game.
