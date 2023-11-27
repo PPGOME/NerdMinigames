@@ -7,11 +7,12 @@
 // the reasons mentioned above.
 
 // Handles the closing of the game.
-proc _gameCloser(int @GameID, int @clock) {
+proc _gameCloser(int @GameID) {
     @updatestatus = query('ZombieSQL', 'UPDATE `gameinstances` SET GameStatus = ? WHERE GameID = ?', 'done', @GameID)
     @wipeplayers = query('ZombieSQL', 'DELETE FROM `gameplayers` WHERE GameID = ?', @GameID)
+    @getclock = query('ZombieSQL', 'SELECT * FROM `gameinstances` WHERE GameID = ?', @GameID)
     remove_bar(@GameID)
-    clear_task(@clock)
+    clear_task(@getclock[0]['ClockID'])
 }
 
 // Handles the minigame's clock. Most things that happen unprovoked in-game happen here.
@@ -43,14 +44,12 @@ proc _gameClock(int @GameID, int @ArenaID) {
         }
         // Once 10 minutes passes, stop the loop and move over to the end game procedure.
         if(@time[0] == 0) {
-            @getclock = query('ZombieSQL', 'SELECT * FROM `gameinstances` WHERE GameID = ?', @playerexists[0]['GameID'])
-            _gameCloser(@GameID, @getclock[0]['ClockID'])
+            _gameCloser(@GameID)
         }
         @time[0]--
     });
 
     @saveclockid = query('ZombieSQL', 'UPDATE `gameinstances` SET ClockID = ? WHERE GameID = ?', @clock, @GameID)
-    console('Clock ID for game shutdown: '.@clock)
 
 }
 
@@ -148,6 +147,7 @@ proc _startRound(int @GameID) {
         array_remove(@teamsarray, 0)
     }
 
+    console('Starting ZOMBIES game '.@GameID)
     _gameClock(@GameID, @teams[0]['ArenaID'])
 
     @teams = query('ZombieSQL', 'SELECT * FROM `gameinstances` JOIN `arenateams` ON `gameinstances`.ArenaID = `arenateams`.ArenaID WHERE GameID = ?', @GameID)
@@ -155,7 +155,7 @@ proc _startRound(int @GameID) {
 
 
 // Procedure for adding a player to the queue.
-proc _addPlayerQueue(string @uuid) {
+proc _addPlayerQueue(string @uuid, int @arenaid) {
     @opengame = ''
 
     @getopengame = query('ZombieSQL', 'SELECT * from `gameinstances` WHERE `GameStatus` = ?', 'open')
@@ -166,14 +166,14 @@ proc _addPlayerQueue(string @uuid) {
         // If there are no games waiting for players, make a new one.
         if(array_size(@getopengame) == 0) {
             _mgMessage('There were no open games. Creating a new one...')
-            @newgame = query('ZombieSQL', 'INSERT INTO `gameinstances` (ArenaID, GameStatus) VALUES (?, ?)', 12, 'open')
+            @newgame = query('ZombieSQL', 'INSERT INTO `gameinstances` (ArenaID, GameStatus) VALUES (?, ?)', @arenaid, 'open')
         }
         // Add player to game, then wait for more players to connect. Once the playercount is reached, call the procedure to start the game.
         @getopengame = query('ZombieSQL', 'SELECT * from `gameinstances` WHERE `GameStatus` = ?', 'open')
             @addplayer = query('ZombieSQL', 'INSERT INTO `gameplayers` (GameID, PlayerUUID) VALUES (?, ?)', @getopengame[0]['GameID'], @uuid)
             console('Player '.@uuid.' has joined the queue for Zombies.')
             @getplayers = query('ZombieSQL', 'SELECT * FROM `gameplayers` WHERE GameID = ?', @getopengame[0]['GameID'])
-            if(array_size(@getplayers) == 2) { // CHANGE TO THE MAX PLAYERS
+            if(array_size(@getplayers) == 1) { // CHANGE TO THE MAX PLAYERS
                 _startRound(@getopengame[0]['GameID'])
         }
     }
@@ -183,10 +183,16 @@ proc _addPlayerQueue(string @uuid) {
 // Pressure plates will currently act as the way to join a game. Plates can be defined with /nerdarena addplate [arena id] and,
 // upon stepping on one, will have the player join the queue for that arena
 bind(pressure_plate_activated, null, null, @event) {
-    if((@event['location']['x'] == 112) && (@event['location']['y'] == 103) &&
-    (@event['location']['z'] == 103) && (@event['location']['world'] == 'world') ) {
-        _addPlayerQueue(puuid(@event['player']))
+    @getplate = query('ZombieSQL', 'SELECT * FROM `gameplates` WHERE X = ? AND Y = ? AND Z = ? AND World = ?',
+    @event['location']['x'], @event['location']['y'], @event['location']['z'], @event['location']['world'])
+    if(array_size(@getplate) > 0) {
+        _addPlayerQueue(puuid(@event['player']), @getplate[0]['ArenaID'])
     }
+
+    // if((@event['location']['x'] == 112) && (@event['location']['y'] == 103) &&
+    // (@event['location']['z'] == 103) && (@event['location']['world'] == 'world') ) {
+    //     _addPlayerQueue(puuid(@event['player']))
+    // }
 }
 
 // If the player leaves, remove them from the game 

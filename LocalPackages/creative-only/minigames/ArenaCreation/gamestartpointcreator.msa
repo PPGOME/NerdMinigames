@@ -34,7 +34,7 @@
 
 /nerdarena delplate $plateid = >>>
     try{
-        if(has_permission(player(), 'nerdarena.delete.other')) {
+        if(has_permission(player(), 'nerdarena.plates')) {
             @SQL = query('ZombieSQL', 'DELETE FROM `gameplates` WHERE PlateID = ?', $plateid)
             _mgMessage("Plate deleted!")
         } else {
