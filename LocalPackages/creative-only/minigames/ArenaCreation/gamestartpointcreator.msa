@@ -1,0 +1,46 @@
+*:/nerdarena addplate $arenaid = >>>
+    if(has_permission("nerdarena.plates")) {
+        @location = ploc()
+        msg(@location)
+        @location['y'] = @location['y'] + 1
+        if(get_block(@location) == 'STONE_PRESSURE_PLATE') {
+            @check = query('ZombieSQL', 'SELECT * FROM `gameplates` WHERE X = ? AND Y = ? AND Z = ? AND World = ?',
+            floor(@location['x']), floor(@location['y']), floor(@location['z']), (@location['world']))
+
+            if(array_size(@check) == 0) {
+                @query = query('ZombieSQL', 'INSERT INTO `gameplates` (ArenaID, X, Y, Z, World) VALUES (?, ?, ?, ?, ?)', parse_int($arenaid, 10),
+            floor(@location['x']), floor(@location['y']), floor(@location['z']), (@location['world']))
+            _mgMessage('New game plate has been added!')
+            } else {
+                _mgMessage('This plate is already assigned to an arena!')
+            }
+        } else {
+            _mgMessage('You are not standing on a pressure plate.')
+        }
+    }
+<<<
+
+*:/nerdarena listplates = >>>
+    if(has_permission("nerdarena.plates")) {
+        @location = ploc()
+        @check = query('ZombieSQL', 'SELECT * FROM `gameplates` WHERE World = ?', @location['world'])
+        _mgMessage('There are '.array_size(@check).' game plates in this world:')
+        foreach(@plate in @check) {
+            msg(color('AQUA').'ID: '.@plate['PlateID'].' '.color('BLUE').' X: '.@plate['X'].' '.color('GREEN').' Y: '.@plate['Y'].' '.color('RED').' Z: '.@plate['Z'].' '
+                .color('YELLOW').' Arena: '.@plate['ArenaID'])
+        }
+    }
+<<<
+
+/nerdarena delplate $plateid = >>>
+    try{
+        if(has_permission(player(), 'nerdarena.delete.other')) {
+            @SQL = query('ZombieSQL', 'DELETE FROM `gameplates` WHERE PlateID = ?', $plateid)
+            _mgMessage("Plate deleted!")
+        } else {
+            _mgMessage("You do not have plate permissions.")
+        }
+    } catch(IndexOverflowException @e) {
+        _mgMessage("This plate does not exist.")
+    }
+<<<
