@@ -1,3 +1,5 @@
-*:/nerdarena forceend $gameid = >>>
-    _gameCloser(parse_int($gameid, 10))
+*:/nerdarena forcestop $gameid = >>>
+    if(has_permission(player(), 'nerdarena.admin')) {
+        _gameCloser(parse_int($gameid, 10))
+    }
 <<<
