@@ -144,7 +144,7 @@ It can be a bit confusing, but tinkering around with it will help it make more s
 - [X] Add a way to end the game if all humans die
 - [X] Document how to make an arena
 - [ ] Add armour modifcation to the arena customizer
-- [ ] Let players define game plates through commands
+- [X] Let players define game plates through commands
 - [ ] Add an end-round celebration thing (SRS mentioned this)
 - [ ] Add windows that only zombies can walk through
 - [ ] Add areas where blocks can be placed
