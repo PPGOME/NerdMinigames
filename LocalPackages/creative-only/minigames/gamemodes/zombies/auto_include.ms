@@ -6,6 +6,11 @@
 // A lot of the code is messy, repetitive, and could probably be broken down into more procedures, but I'll do that once I get confirmation that the functionality is okay due to
 // the reasons mentioned above.
 
+// Why does this need to be here
+proc _mgMessage(string @message) {
+    msg(color('Gray')."[".color('Blue')."Minigames".color('Gray')."]".color('Gold')." ".@message)
+}
+
 // Handles the closing of the game.
 proc _gameCloser(int @GameID) {
     @updatestatus = query('ZombieSQL', 'UPDATE `gameinstances` SET GameStatus = ? WHERE GameID = ?', 'done', @GameID)
