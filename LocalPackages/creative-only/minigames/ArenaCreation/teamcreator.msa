@@ -16,7 +16,7 @@
     if(has_permission(player(), 'nerdarena.delete')) {
         @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $arenaid)
         try{
-            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
+            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.admin')) {
                 @SQL = query('ZombieSQL', 'DELETE FROM `arenateams` WHERE TeamName = ?', $team)
                 _mgMessage("Team deleted!")
             } else {
@@ -39,7 +39,7 @@
     if(has_permission(player(), 'nerdarena.list')) {
         @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $arenaid)
         try{
-            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.list.other')) {
+            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.admin')) {
                 @SQL = query('ZombieSQL', 'SELECT * FROM `arenateams` WHERE ArenaID = ?', $arenaid)
                 _mgMessage("This arena has ".array_size(@SQL)." team(s).")
                 foreach(@SQL, @row) {

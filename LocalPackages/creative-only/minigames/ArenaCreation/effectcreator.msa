@@ -49,7 +49,7 @@
 /nerdarena deleffect $effectid = >>>
     @verify = query('ZombieSQL', 'SELECT * FROM `arenaeffects` JOIN `arena` ON `arenaeffects`.`ArenaID`=`arena`.`ArenaID` WHERE `arenaeffects`.`EffectID` = ?', $effectid)
     try{
-        if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
+        if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.admin')) {
             @SQL = query('ZombieSQL', 'DELETE FROM `arenaeffects` WHERE EffectID = ?', $effectid)
             _mgMessage("Effect deleted!")
         } else {

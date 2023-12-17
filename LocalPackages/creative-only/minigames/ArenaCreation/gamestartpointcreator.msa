@@ -1,5 +1,5 @@
 *:/nerdarena addplate $arenaid = >>>
-    if(has_permission("nerdarena.plates")) {
+    if(has_permission("nerdarena.admin")) {
         @location = ploc()
         msg(@location)
         @location['y'] = @location['y'] + 1
@@ -21,7 +21,7 @@
 <<<
 
 *:/nerdarena listplates = >>>
-    if(has_permission("nerdarena.plates")) {
+    if(has_permission("nerdarena.admin")) {
         @location = ploc()
         @check = query('ZombieSQL', 'SELECT * FROM `gameplates` WHERE World = ?', @location['world'])
         _mgMessage('There are '.array_size(@check).' game plates in this world:')
@@ -34,7 +34,7 @@
 
 /nerdarena delplate $plateid = >>>
     try{
-        if(has_permission(player(), 'nerdarena.plates')) {
+        if(has_permission(player(), 'nerdarena.admin')) {
             @SQL = query('ZombieSQL', 'DELETE FROM `gameplates` WHERE PlateID = ?', $plateid)
             _mgMessage("Plate deleted!")
         } else {

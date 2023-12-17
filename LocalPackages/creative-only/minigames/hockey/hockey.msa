@@ -1,0 +1,28 @@
+*:/hockey respawn = >>>
+    if(has_permission(player(), 'nerd.hockey.admin')) {
+        @sheeps = entities_in_radius(ploc(player()), 100, 'SHEEP')
+        @foundsheeps = false
+        if(array_size(@sheeps) > 0) {
+            msg(@sheeps)
+            msg('--------')
+            foreach(@sheep in @sheeps) {
+                msg(@sheep)
+                if(get_metadata(@sheep, 'isPuck') != 0) {
+                    @foundsheeps = true
+                    @loc = entity_loc(@sheep)
+                    entity_remove(@sheep)
+                    spawn_particle(@loc, 'EXPLOSION_LARGE')
+                    play_sound(@loc, array(sound: 'ENTITY_GENERIC_EXPLODE', volume: 4))
+
+                    _sheepRespawn('Poof! The previous puck has been removed in a rather vicious way. Ready for next round!')
+                }
+            }
+            if(@foundsheeps == false) {
+                _sheepRespawn('No pucks found!, spawning a new one.')
+                @foundsheeps = false
+            }
+        } else {
+            _sheepRespawn('No pucks found, spawning a new one.')
+        }
+    }
+<<<

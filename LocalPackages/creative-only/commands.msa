@@ -13,7 +13,7 @@
 			set_pmode(@player, 'CREATIVE');
 			lightning(ploc(@player), true);
 			set_timeout(2500, closure(set_phealth(@player, 20)));
- 		));
+			));
 	}
 
 	if ($player == '') {

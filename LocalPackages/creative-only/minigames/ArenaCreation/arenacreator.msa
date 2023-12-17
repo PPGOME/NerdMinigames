@@ -38,7 +38,7 @@
     if(has_permission(player(), 'nerdarena.delete')) {
         @verify = query('ZombieSQL', 'SELECT ArenaCreator FROM `arena` WHERE ArenaID = ?', $id)
         try{
-            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
+            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.admin')) {
                 @SQL = query('ZombieSQL', 'DELETE FROM `arena` WHERE ArenaID = ?', $id)
                 _mgMessage("Arena deleted!")
             } else {
@@ -76,7 +76,7 @@
             _mgMessage("You have no arenas to show.")
         }
     } else {
-        if(has_permission(player(), 'nerdarena.list.others')) {
+        if(has_permission(player(), 'nerdarena.admin')) {
             try {
                 @player = $player
                 @arenas = query('ZombieSQL', 'SELECT * FROM `arena` WHERE ArenaCreator=?', puuid(@player))

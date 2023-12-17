@@ -36,7 +36,7 @@
     if(has_permission(player(), 'nerdarena.delete')) {
         @verify = query('ZombieSQL', 'SELECT * FROM `arenaspawns` JOIN `arena` ON `arenaspawns`.`ArenaID`=`arena`.`ArenaID` WHERE `arenaspawns`.`spawnid` = ?', $spawnid)
         try{
-            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.delete.other')) {
+            if(@verify[0]['ArenaCreator'] == puuid(player()) || has_permission(player(), 'nerdarena.admin')) {
                 @SQL = query('ZombieSQL', 'DELETE FROM `arenaspawns` WHERE spawnid = ?', $spawnid)
                 _mgMessage("Spawn deleted!")
             } else {
