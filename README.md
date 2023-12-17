@@ -129,6 +129,18 @@ And going back to the beginning regarding the game's handling of time, let's loo
 
 It can be a bit confusing, but tinkering around with it will help it make more sense, so play around!
 
+# For Server Admins
+
+## Game plates
+
+Once an arena is made, a game plate will need to be made for it to actually be playable. The game plate is a pressure plate that the players must step on to queue up to play.
+
+Creating one is simple. A user with the `nerdarena.plates` permission must stand on a pressure plate (at their feet) and run `/nerdarena addplate <arena id>`. This will assign that plate to that arena and, once stepped on after, will create a new game.
+
+## Forcing a game to end
+
+If a game needs to be ended abruptly, an administrator with the `nerdarena.admin` permission can run `/nerdarena forcestop <game id>`. Currently the game ID can be found in the console whenever a game starts. This will end everything and skip to the closing sequence of a game.
+
 # Current Roadmap
 - [X] Let players define an area for an arena
 - [X] Let players add teams to the arenas
